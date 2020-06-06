@@ -1,0 +1,164 @@
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.mynav a:hover{
+    border-bottom: 2px solid #0f8acf;
+    
+}
+ 
+
+/* BACKGROUND IMAGE  */
+.backgroundimage{
+    background-image: url(../Tour/images/beach-daylight-foam-landscape-386148.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.tourimage{
+    margin-top: 240px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.tour-section{
+    background-color: #ffffff;
+    margin-top: 80px;
+    
+}
+.cardimage1{
+    transition: all .2s;
+}
+.cardimage1:hover{
+    transform: scale(0.9);
+}
+.tour-section i{
+    color: orange;
+}
+.tour-section span{
+    color: #b6b6b6;
+}
+.tour-section p{
+    color: #b6b6b6;
+    font-size: 19px;
+    
+
+}
+
+/* .tour-sectionrightside{
+    border: 1px solid #b6b6b6;
+} */
+.tourbutton{
+    border:1px solid black;
+}
+.tourbutton:hover{
+    background-color:#108acf ;
+    color: whitesmoke;
+}
+.heading{
+    text-decoration:  none;
+}
+/* TOUR BUTTON */   
+.tourbutton button{
+    border:1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.tourbutton button:hover{
+    background-color:#108acf ;
+    color: whitesmoke;
+}
+.borderforrow{
+    border: 1px solid #b6b6b6;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.footer{
+    /* margin-top: 50px; */
+    background-color: #162e44;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+/* .heading{
+    padding-bottom: 200px;
+} */
+.footer i{
+    color: #0f8acf;
+}
+.footer span:hover{
+    color: #0f8acf;
+    
+}
+.pagelinks{
+    text-decoration: none;
+}
+.footer li{
+    color: whitesmoke;    
+}
+.footer li:hover{
+    color: #0f8acf;
+}
+
+@media only screen and (max-width:768px){
+    .contact-us{
+        
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .news{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .quicklinks{
+        margin-top: 30px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+/* 2nd footer hai ye */
+.second-footer{
+    background-color: #11263a;
+    color: #556472;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    font-size: 14px;
+}
+
+.copyright:hover{
+    color:#0f8acf ;
+}
+.icon1:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+.icon2:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+
+.icon3:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.icon4:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.policy:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}

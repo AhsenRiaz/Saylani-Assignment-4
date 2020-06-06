@@ -1,0 +1,111 @@
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.mynav a:hover{
+    border-bottom: 2px solid #0f8acf;
+    
+}
+ 
+/* MAIN IMAGE */
+.backgroundimage{
+    background-image: url("../Gallery/images/clear-blue-sea-164041.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.9;
+}
+.backgroundimage p{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: 220px;
+}
+.footer{
+    /* margin-top: 50px; */
+    background-color: #162e44;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+/* .heading{
+    padding-bottom: 200px;
+} */
+.footer i{
+    color: #0f8acf;
+}
+.footer span:hover{
+    color: #0f8acf;
+    
+}
+.pagelinks{
+    text-decoration: none;
+}
+.footer li{
+    color: whitesmoke;    
+}
+.footer li:hover{
+    color: #0f8acf;
+}
+
+@media only screen and (max-width:768px){
+    .contact-us{
+        
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .news{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .quicklinks{
+        margin-top: 30px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+/* 2nd footer hai ye */
+.second-footer{
+    background-color: #11263a;
+    color: #556472;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    font-size: 14px;
+}
+
+.copyright:hover{
+    color:#0f8acf ;
+}
+.icon1:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+.icon2:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+
+.icon3:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.icon4:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.policy:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+
+.galleryimages:hover{
+    transform: scale(1.1);
+}

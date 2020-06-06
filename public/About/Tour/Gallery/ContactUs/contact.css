@@ -1,0 +1,153 @@
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.backgroundimage{
+    background-image: url("../ContactUs/images/books-business-computer-connection-459654.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.10)),url('../ContactUs/images/books-business-computer-connection-459654.jpg');
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 230px;
+
+}
+
+.mynav a:hover{
+    border-bottom: 2px solid #0f8acf;
+    
+}
+ 
+.icons i{
+    font-size: 100px;
+    color: #0f8acf;
+    
+} 
+.icons p{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 1em;
+
+}
+.col1:hover{
+    transform: scale(0.9);
+    box-shadow: 2px 2px 8px 2px ;
+}
+.getintouch{
+    margin-top: 50px;
+}
+.info{
+    background-color:#f7f7f7;
+    border: none;
+    padding: 10px 10px 10px 14px;
+    border-radius: 12px;
+}
+.comment{
+    margin-top: 30px;
+   
+}
+.tellus{
+
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 14px;
+    padding-left: 10px;
+}
+@media only screen and (max-width:992px){
+    .tellus{
+        margin-top: 10px;
+        width: 450px;
+    }
+}
+@media only screen and (max-width:768px){
+    .info{
+        margin-top:20px;
+        
+    }
+}
+.footer{
+    /* margin-top: 50px; */
+    background-color: #162e44;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+/* .heading{
+    padding-bottom: 200px;
+} */
+.footer i{
+    color: #0f8acf;
+}
+.footer span:hover{
+    color: #0f8acf;
+    
+}
+.pagelinks{
+    text-decoration: none;
+}
+.footer li{
+    color: whitesmoke;    
+}
+.footer li:hover{
+    color: #0f8acf;
+}
+
+@media only screen and (max-width:768px){
+    .contact-us{
+        
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .news{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .quicklinks{
+        margin-top: 30px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+/* 2nd footer hai ye */
+.second-footer{
+    background-color: #11263a;
+    color: #556472;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    font-size: 14px;
+}
+
+.copyright:hover{
+    color:#0f8acf ;
+}
+.icon1:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+.icon2:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+
+.icon3:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.icon4:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.policy:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+
+

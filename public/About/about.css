@@ -1,0 +1,209 @@
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.mynav a:hover{
+    border-bottom: 2px solid #0f8acf;
+    
+}
+ 
+
+
+.background-image{
+    background-image: url("../About/images/photo.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.aboutimage{
+    
+    padding-top: 230px;
+    color: whitesmoke;
+    width: 100% ;
+    
+    
+}
+.background-image h1{
+    font-size: 50px;
+}
+/* BELOW ABOUT US */
+.aboutus p{
+    text-align: justify;
+    padding: 5px 8px 5px 8px;
+    color: grey;
+}
+.aboutus img{
+    /* border: 2px solid silver; */
+    width: 100%;
+}
+/* DESTINATIONS */
+.destinations{
+    margin-top: 70px;
+}
+.images p{
+    font-family: Arial;
+    font-size: 20px;
+}
+.images p:hover{
+    color: #0f8acf;
+    cursor: pointer;
+} 
+
+.image1:hover{
+    transform: scale(1.1);
+}
+.image2:hover{
+    transform: scale(1.1);
+}
+.image3:hover{
+    transform: scale(1.1);
+}
+.image4:hover{
+    transform: scale(1.1);
+}
+
+/* OUT TEAM HEADING */
+.img-radius{
+    border-radius: 50%;
+    width: 140px;
+    height: 120px;
+}
+/* TEAM MEMBERS */
+.team-members i{
+    color: #0f8acf;
+}
+.team-members  i:hover{
+    color: black;
+    cursor: pointer;
+}
+.team-members p{
+    color: grey;
+}
+
+@media only screen and (max-width:768px){
+    .member3{
+        margin-top:30px ;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .member2{
+        margin-top:30px ;
+    }
+}
+/* BACKGROUNDIMAGE2 */
+.backgroundimage2{
+    margin-top: 40px;
+    background-image: url("../About/images/landscape-photography-of-green-mountain-under-cloudy-sky-1038274.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.col1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.col1 label{
+    font-size: 100px;
+    color: whitesmoke;
+}
+.col1 p{
+    font-size: 30px;
+    color: whitesmoke;
+}
+@media only screen and (max-width:992px){
+    .backgroundimage2{
+            height: 700px;
+    }
+}
+@media only screen and (max-width:768px){
+    .backgroundimage2{
+            height: 1300px;
+    }
+}
+.footer{
+    /* margin-top: 50px; */
+    background-color: #162e44;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+/* .heading{
+    padding-bottom: 200px;
+} */
+.footer i{
+    color: #0f8acf;
+}
+.footer span:hover{
+    color: #0f8acf;
+    
+}
+.pagelinks{
+    text-decoration: none;
+}
+.footer li{
+    color: whitesmoke;    
+}
+.footer li:hover{
+    color: #0f8acf;
+}
+
+@media only screen and (max-width:768px){
+    .contact-us{
+        
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .news{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .quicklinks{
+        margin-top: 30px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+/* 2nd footer hai ye */
+.second-footer{
+    background-color: #11263a;
+    color: #556472;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    font-size: 14px;
+}
+
+.copyright:hover{
+    color:#0f8acf ;
+}
+.icon1:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+.icon2:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+
+.icon3:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.icon4:hover{
+    color: #0f8acf;
+    cursor: pointer;
+    
+}
+.policy:hover{
+    color: #0f8acf;
+    cursor: pointer;
+}
+
+
